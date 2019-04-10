@@ -35,7 +35,9 @@ RUN yum install -y \
   sysvinit-tools \
   yum-utils \
   tbb-devel \
-  gperftools-devel; \
+  gperftools-devel \
+  iproute \
+  net-tools; \
   yum -y clean all
 
 ADD install_xercesc280.sh /script/
