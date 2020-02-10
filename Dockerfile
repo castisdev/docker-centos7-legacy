@@ -43,29 +43,29 @@ RUN yum install -y \
 ADD install_xercesc280.sh /script/
 RUN /script/install_xercesc280.sh
 
-ADD install_cmake3152.sh /script/
-RUN /script/install_cmake3152.sh
+ADD install_cmake3164.sh /script/
+RUN /script/install_cmake3164.sh
 
 ADD install_cryptopp820.sh /script/
 RUN /script/install_cryptopp820.sh
 
-ADD install_googletest181.sh /script/
-RUN /script/install_googletest181.sh
+ADD install_googletest1100.sh /script/
+RUN /script/install_googletest1100.sh
 
-ADD install_python374.sh /script/
-RUN /script/install_python374.sh
+ADD install_python381.sh /script/
+RUN /script/install_python381.sh
 
 ADD install_cpptools.sh /script/
 RUN /script/install_cpptools.sh
 
-ADD install_cppcheck189.sh /script/
-RUN /script/install_cppcheck189.sh
+ADD install_cppcheck190.sh /script/
+RUN /script/install_cppcheck190.sh
 
 ADD install_zsh571.sh /script/
 RUN /script/install_zsh571.sh
 
-ADD install_ninja190.sh /script/
-RUN /script/install_ninja190.sh
+ADD install_ninja1100.sh /script/
+RUN /script/install_ninja1100.sh
 
 # set timezone
 RUN ln -snf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
