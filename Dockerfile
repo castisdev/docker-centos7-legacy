@@ -48,8 +48,8 @@ RUN yum install -y \
 ADD install_xercesc280.sh /script/
 RUN /script/install_xercesc280.sh
 
-ADD install_cmake3202.sh /script/
-RUN /script/install_cmake3202.sh
+ADD install_cmake3211.sh /script/
+RUN /script/install_cmake3211.sh
 
 ADD install_cryptopp850.sh /script/
 RUN /script/install_cryptopp850.sh
@@ -57,14 +57,14 @@ RUN /script/install_cryptopp850.sh
 ADD install_googletest1100.sh /script/
 RUN /script/install_googletest1100.sh
 
-ADD install_python395.sh /script/
-RUN /script/install_python395.sh
+ADD install_python396.sh /script/
+RUN /script/install_python396.sh
 
 ADD install_cpptools.sh /script/
 RUN /script/install_cpptools.sh
 
-ADD install_cppcheck241.sh /script/
-RUN /script/install_cppcheck241.sh
+ADD install_cppcheck25.sh /script/
+RUN /script/install_cppcheck25.sh
 
 ADD install_zsh58.sh /script/
 RUN /script/install_zsh58.sh
